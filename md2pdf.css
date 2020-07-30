@@ -1,0 +1,39 @@
+body {
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  break-after: avoid !important;
+  page-break-after: avoid !important;
+}
+
+h1, h2 {
+  margin: 25px 0 15px;
+}
+
+h3, h4, h5, h6 {
+  margin: 15px 0;
+}
+
+a {
+  color: #385DD6;
+  text-decoration-thickness: 1px;
+  text-decoration: underline;
+}
+
+blockquote {
+  padding: 10px 20px;
+}
+
+blockquote,
+image,
+figure {
+  margin: 20px 0;
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
